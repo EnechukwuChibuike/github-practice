@@ -6,6 +6,49 @@
     <title>Document</title>
   </head>
   <body>
-    <a href="/index.html">Home</a>
+    <header>
+      <strong>Logo</strong>
+
+      <nav>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/index.html">Home</a>
+      </nav>
+    </header>
+
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      body {
+        background-color: black;
+      }
+
+      strong {
+        color: white;
+      }
+
+      header {
+        height: 10vh;
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    </style>
   </body>
 </html>
